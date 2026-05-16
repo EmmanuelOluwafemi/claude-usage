@@ -1,0 +1,5 @@
+{"timestamp":"2026-05-16T01:00:00.000Z","type":"event_msg","payload":{"type":"token_count","rate_limits":{"primary":{"used_percent":5.0,"window_minutes":300,"resets_at":1778914980},"secondary":null,"plan_type":"plus"}}}
+{not valid JSON at all
+{"timestamp":"2026-05-16T01:00:30.000Z","type":"event_msg","payload":{"type":"token_count","rate_limits":{"primary":{"used_percent":10.0,"window_minutes":300,"resets_at":1778914980},"secondary":null,"plan_type":"plus"}}}
+{"timestamp":"2026-05-16T01:01:00.000Z","type":"event_msg","payload":{"type":"token_count","rate_limits":"this is wrong shape"}}
+{"timestamp":"2026-05-16T01:01:30.000Z","type":"event_msg","payload":{"type":"token_count","rate_limits":{"primary":{"used_percent":15.0,"window_minutes":300,"resets_at":1778914980},"secondary":null,"plan_type":"plus"}}}
