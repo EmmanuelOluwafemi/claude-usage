@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04BB6AE02FB859640093C467 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 04BB6ADF2FB859640093C467 /* Core */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		04BB6A6E2FB815C00093C467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BB6AE02FB859640093C467 /* Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = ClaudeUsage;
 			packageProductDependencies = (
+				04BB6ADF2FB859640093C467 /* Core */,
 			);
 			productName = ClaudeUsage;
 			productReference = 04BB6A602FB815BE0093C467 /* ClaudeUsage.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 04BB6A572FB815BE0093C467;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				04BB6ADE2FB859640093C467 /* XCLocalSwiftPackageReference "../Core" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04BB6A612FB815BE0093C467 /* Products */;
 			projectDirPath = "";
@@ -567,6 +576,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		04BB6ADE2FB859640093C467 /* XCLocalSwiftPackageReference "../Core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Core;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04BB6ADF2FB859640093C467 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04BB6A582FB815BE0093C467 /* Project object */;
 }
